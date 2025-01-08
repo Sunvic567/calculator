@@ -1,0 +1,64 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+ }
+ body{
+    background-color:  #494d4b;
+    min-height: 100vh;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .card{
+    width: 100%;
+    padding: 1rem;
+    background-color: #6d6161;
+    border-radius: 15px;
+ }
+ .card input{
+    width: 100%;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 600px;
+    color: #ffffff;
+    border-radius: 15px 15px 0 0;
+    border: 0;
+    outline: 0;
+    background-color: #494d4b;
+    text-align: end;
+ }
+
+table{
+    width: 100%;
+    padding: 1rem;
+}
+
+table button{
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    border-radius: 15px;
+    width: 100%;
+    cursor: pointer;
+    text-align:center;
+    margin-right: 1rem;
+    margin-bottom: 0.3rem;
+    border: 0;
+    outline: 0;
+}
+#equalBtn, #clearBtn, .marthBtn{
+    background-color: #c9a157;
+}
+.numbtn{
+    background-color: #dacbcb;
+}
+.numbtn:hover, .numbtn:focus{
+    background: #eeeaea;
+}
+#equalBtn:hover, #clearBtn:hover, .marthBtn:hover{
+    background-color:#f3cf8b ;
+}
